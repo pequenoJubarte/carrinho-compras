@@ -2,10 +2,12 @@
 <html>
 <head>
 <title>Carrinho de Compras</title>
+<link rel="StyleSheet" type="text/css" href="css/estilo.css"
+	media="screen">
 </head>
 <body>
 	<br>
-	<div style="text-align: center">
+	<div class = "fundoFormulario">
 		<h2>
 			Hey You..!! This is your 1st Spring MCV Tutorial..<br> <br>
 		</h2>
