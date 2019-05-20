@@ -7,6 +7,8 @@
 
 package org.tempuri;
 
+import java.rmi.RemoteException;
+
 public class CalcPrecoPrazoWSSoapStub extends org.apache.axis.client.Stub implements org.tempuri.CalcPrecoPrazoWSSoap {
     private java.util.Vector cachedSerClasses = new java.util.Vector();
     private java.util.Vector cachedSerQNames = new java.util.Vector();
@@ -1069,5 +1071,50 @@ public class CalcPrecoPrazoWSSoapStub extends org.apache.axis.client.Stub implem
   throw axisFaultException;
 }
     }
+
+	@Override
+	public CResultado calcPrecoPrazo(String nCdEmpresa, String sDsSenha, String nCdServico, String sCepOrigem,
+			String sCepDestino, String nVlPeso, int nCdFormato, double nVlComprimento, double nVlAltura,
+			double nVlLargura, double nVlDiametro, String sCdMaoPropria, double nVlValorDeclarado,
+			String sCdAvisoRecebimento) throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CResultado calcPrecoPrazoData(String nCdEmpresa, String sDsSenha, String nCdServico, String sCepOrigem,
+			String sCepDestino, String nVlPeso, int nCdFormato, double nVlComprimento, double nVlAltura,
+			double nVlLargura, double nVlDiametro, String sCdMaoPropria, double nVlValorDeclarado,
+			String sCdAvisoRecebimento, String sDtCalculo) throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CResultado calcPrecoPrazoRestricao(String nCdEmpresa, String sDsSenha, String nCdServico, String sCepOrigem,
+			String sCepDestino, String nVlPeso, int nCdFormato, double nVlComprimento, double nVlAltura,
+			double nVlLargura, double nVlDiametro, String sCdMaoPropria, double nVlValorDeclarado,
+			String sCdAvisoRecebimento, String sDtCalculo) throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CResultado calcPreco(String nCdEmpresa, String sDsSenha, String nCdServico, String sCepOrigem,
+			String sCepDestino, String nVlPeso, int nCdFormato, double nVlComprimento, double nVlAltura,
+			double nVlLargura, double nVlDiametro, String sCdMaoPropria, double nVlValorDeclarado,
+			String sCdAvisoRecebimento) throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CResultado calcPrecoData(String nCdEmpresa, String sDsSenha, String nCdServico, String sCepOrigem,
+			String sCepDestino, String nVlPeso, int nCdFormato, double nVlComprimento, double nVlAltura,
+			double nVlLargura, double nVlDiametro, String sCdMaoPropria, double nVlValorDeclarado,
+			String sCdAvisoRecebimento, String sDtCalculo) throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

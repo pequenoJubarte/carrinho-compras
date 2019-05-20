@@ -13,27 +13,28 @@
 	<div class="fundoFormulario">
 		<h1>Adicionar Produto:</h1>
 		<br>
-		<form:form name="Adicionar Produto" id="cadastroDeProduto"
-			action="addProduto" method="POST">
-			<label>Nome</label>
+		<form:form method="POST" action="adicionaProduto">
+			<form:label path="nome">Nome</form:label>
 			<br>
-			<input type="text" name="nome" maxlength="150"
+			<form:input path="nome" type="text" name="nome" maxlength="150"
 				placeholder="Digite o nome do produto.." />
 			<br>
 			<br>
-			<label>Preço</label>
+			<form:label path="preco">Preço</form:label>
 			<br>
-			<input type="text" name="preco" maxlength="150"
+			<form:input path="preco" type="text" name="preco" maxlength="150"
 				placeholder="Digite seu endereço.." />
 			<br>
 			<br>
-			<label>Quantidade</label>
+			<form:label path="quantidade">Quantidade</form:label>
 			<br>
-			<input type="number" name="quantidade" value="1" />
+			<form:input path="quantidade" type="number" name="quantidade"
+				value="1" />
 			<br>
 			<br>
 			<input type="submit" name="enviar" value="Enviar">
 		</form:form>
+		<a href="listaProdutos">Lista de Produtos</a>
 	</div>
 </body>
 </html>

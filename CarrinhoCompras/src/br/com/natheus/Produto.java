@@ -5,10 +5,6 @@ public class Produto {
 	private float preco;
 	private int quantidade = 1;
 
-	public Produto(String nome, float preco) {
-		this.nome = nome;
-		this.preco = preco;
-	}
 
 	public String getNome() {
 		return nome;

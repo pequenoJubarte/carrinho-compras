@@ -44,61 +44,61 @@ public class CalcPrecoPrazoWSSoapProxy implements org.tempuri.CalcPrecoPrazoWSSo
     return calcPrecoPrazoWSSoap;
   }
   
-  public org.tempuri.CResultado calcPrecoPrazo(java.lang.String nCdEmpresa, java.lang.String sDsSenha, java.lang.String nCdServico, java.lang.String sCepOrigem, java.lang.String sCepDestino, java.lang.String nVlPeso, int nCdFormato, java.math.BigDecimal nVlComprimento, java.math.BigDecimal nVlAltura, java.math.BigDecimal nVlLargura, java.math.BigDecimal nVlDiametro, java.lang.String sCdMaoPropria, java.math.BigDecimal nVlValorDeclarado, java.lang.String sCdAvisoRecebimento) throws java.rmi.RemoteException{
+  public org.tempuri.CResultado calcPrecoPrazo(String nCdEmpresa, String sDsSenha, String nCdServico, String sCepOrigem, String sCepDestino, String nVlPeso, int nCdFormato, double nVlComprimento, double nVlAltura, double nVlLargura, double nVlDiametro, String sCdMaoPropria, double nVlValorDeclarado, String sCdAvisoRecebimento) throws java.rmi.RemoteException{
     if (calcPrecoPrazoWSSoap == null)
       _initCalcPrecoPrazoWSSoapProxy();
     return calcPrecoPrazoWSSoap.calcPrecoPrazo(nCdEmpresa, sDsSenha, nCdServico, sCepOrigem, sCepDestino, nVlPeso, nCdFormato, nVlComprimento, nVlAltura, nVlLargura, nVlDiametro, sCdMaoPropria, nVlValorDeclarado, sCdAvisoRecebimento);
   }
   
-  public org.tempuri.CResultado calcPrecoPrazoData(java.lang.String nCdEmpresa, java.lang.String sDsSenha, java.lang.String nCdServico, java.lang.String sCepOrigem, java.lang.String sCepDestino, java.lang.String nVlPeso, int nCdFormato, java.math.BigDecimal nVlComprimento, java.math.BigDecimal nVlAltura, java.math.BigDecimal nVlLargura, java.math.BigDecimal nVlDiametro, java.lang.String sCdMaoPropria, java.math.BigDecimal nVlValorDeclarado, java.lang.String sCdAvisoRecebimento, java.lang.String sDtCalculo) throws java.rmi.RemoteException{
+  public org.tempuri.CResultado calcPrecoPrazoData(String nCdEmpresa, String sDsSenha, String nCdServico, String sCepOrigem, String sCepDestino, String nVlPeso, int nCdFormato, double nVlComprimento, double nVlAltura, double nVlLargura, double nVlDiametro, String sCdMaoPropria, double nVlValorDeclarado, String sCdAvisoRecebimento, String sDtCalculo) throws java.rmi.RemoteException{
     if (calcPrecoPrazoWSSoap == null)
       _initCalcPrecoPrazoWSSoapProxy();
     return calcPrecoPrazoWSSoap.calcPrecoPrazoData(nCdEmpresa, sDsSenha, nCdServico, sCepOrigem, sCepDestino, nVlPeso, nCdFormato, nVlComprimento, nVlAltura, nVlLargura, nVlDiametro, sCdMaoPropria, nVlValorDeclarado, sCdAvisoRecebimento, sDtCalculo);
   }
   
-  public org.tempuri.CResultado calcPrecoPrazoRestricao(java.lang.String nCdEmpresa, java.lang.String sDsSenha, java.lang.String nCdServico, java.lang.String sCepOrigem, java.lang.String sCepDestino, java.lang.String nVlPeso, int nCdFormato, java.math.BigDecimal nVlComprimento, java.math.BigDecimal nVlAltura, java.math.BigDecimal nVlLargura, java.math.BigDecimal nVlDiametro, java.lang.String sCdMaoPropria, java.math.BigDecimal nVlValorDeclarado, java.lang.String sCdAvisoRecebimento, java.lang.String sDtCalculo) throws java.rmi.RemoteException{
+  public org.tempuri.CResultado calcPrecoPrazoRestricao(String nCdEmpresa, String sDsSenha, String nCdServico, String sCepOrigem, String sCepDestino, String nVlPeso, int nCdFormato, double nVlComprimento, double nVlAltura, double nVlLargura, double nVlDiametro, String sCdMaoPropria, double nVlValorDeclarado, String sCdAvisoRecebimento, String sDtCalculo) throws java.rmi.RemoteException{
     if (calcPrecoPrazoWSSoap == null)
       _initCalcPrecoPrazoWSSoapProxy();
     return calcPrecoPrazoWSSoap.calcPrecoPrazoRestricao(nCdEmpresa, sDsSenha, nCdServico, sCepOrigem, sCepDestino, nVlPeso, nCdFormato, nVlComprimento, nVlAltura, nVlLargura, nVlDiametro, sCdMaoPropria, nVlValorDeclarado, sCdAvisoRecebimento, sDtCalculo);
   }
   
-  public org.tempuri.CResultado calcPreco(java.lang.String nCdEmpresa, java.lang.String sDsSenha, java.lang.String nCdServico, java.lang.String sCepOrigem, java.lang.String sCepDestino, java.lang.String nVlPeso, int nCdFormato, java.math.BigDecimal nVlComprimento, java.math.BigDecimal nVlAltura, java.math.BigDecimal nVlLargura, java.math.BigDecimal nVlDiametro, java.lang.String sCdMaoPropria, java.math.BigDecimal nVlValorDeclarado, java.lang.String sCdAvisoRecebimento) throws java.rmi.RemoteException{
+  public org.tempuri.CResultado calcPreco(String nCdEmpresa, String sDsSenha, String nCdServico, String sCepOrigem, String sCepDestino, String nVlPeso, int nCdFormato, double nVlComprimento, double nVlAltura, double nVlLargura, double nVlDiametro, String sCdMaoPropria, double nVlValorDeclarado, String sCdAvisoRecebimento) throws java.rmi.RemoteException{
     if (calcPrecoPrazoWSSoap == null)
       _initCalcPrecoPrazoWSSoapProxy();
     return calcPrecoPrazoWSSoap.calcPreco(nCdEmpresa, sDsSenha, nCdServico, sCepOrigem, sCepDestino, nVlPeso, nCdFormato, nVlComprimento, nVlAltura, nVlLargura, nVlDiametro, sCdMaoPropria, nVlValorDeclarado, sCdAvisoRecebimento);
   }
   
-  public org.tempuri.CResultado calcPrecoData(java.lang.String nCdEmpresa, java.lang.String sDsSenha, java.lang.String nCdServico, java.lang.String sCepOrigem, java.lang.String sCepDestino, java.lang.String nVlPeso, int nCdFormato, java.math.BigDecimal nVlComprimento, java.math.BigDecimal nVlAltura, java.math.BigDecimal nVlLargura, java.math.BigDecimal nVlDiametro, java.lang.String sCdMaoPropria, java.math.BigDecimal nVlValorDeclarado, java.lang.String sCdAvisoRecebimento, java.lang.String sDtCalculo) throws java.rmi.RemoteException{
+  public org.tempuri.CResultado calcPrecoData(String nCdEmpresa, String sDsSenha, String nCdServico, String sCepOrigem, String sCepDestino, String nVlPeso, int nCdFormato, double nVlComprimento, double nVlAltura, double nVlLargura, double nVlDiametro, String sCdMaoPropria, double nVlValorDeclarado, String sCdAvisoRecebimento, String sDtCalculo) throws java.rmi.RemoteException{
     if (calcPrecoPrazoWSSoap == null)
       _initCalcPrecoPrazoWSSoapProxy();
     return calcPrecoPrazoWSSoap.calcPrecoData(nCdEmpresa, sDsSenha, nCdServico, sCepOrigem, sCepDestino, nVlPeso, nCdFormato, nVlComprimento, nVlAltura, nVlLargura, nVlDiametro, sCdMaoPropria, nVlValorDeclarado, sCdAvisoRecebimento, sDtCalculo);
   }
   
-  public org.tempuri.CResultado calcPrazo(java.lang.String nCdServico, java.lang.String sCepOrigem, java.lang.String sCepDestino) throws java.rmi.RemoteException{
+  public org.tempuri.CResultado calcPrazo(String nCdServico, String sCepOrigem, String sCepDestino) throws java.rmi.RemoteException{
     if (calcPrecoPrazoWSSoap == null)
       _initCalcPrecoPrazoWSSoapProxy();
     return calcPrecoPrazoWSSoap.calcPrazo(nCdServico, sCepOrigem, sCepDestino);
   }
   
-  public org.tempuri.CResultado calcPrazoData(java.lang.String nCdServico, java.lang.String sCepOrigem, java.lang.String sCepDestino, java.lang.String sDtCalculo) throws java.rmi.RemoteException{
+  public org.tempuri.CResultado calcPrazoData(String nCdServico, String sCepOrigem, String sCepDestino, String sDtCalculo) throws java.rmi.RemoteException{
     if (calcPrecoPrazoWSSoap == null)
       _initCalcPrecoPrazoWSSoapProxy();
     return calcPrecoPrazoWSSoap.calcPrazoData(nCdServico, sCepOrigem, sCepDestino, sDtCalculo);
   }
   
-  public org.tempuri.CResultado calcPrazoRestricao(java.lang.String nCdServico, java.lang.String sCepOrigem, java.lang.String sCepDestino, java.lang.String sDtCalculo) throws java.rmi.RemoteException{
+  public org.tempuri.CResultado calcPrazoRestricao(String nCdServico, String sCepOrigem, String sCepDestino, String sDtCalculo) throws java.rmi.RemoteException{
     if (calcPrecoPrazoWSSoap == null)
       _initCalcPrecoPrazoWSSoapProxy();
     return calcPrecoPrazoWSSoap.calcPrazoRestricao(nCdServico, sCepOrigem, sCepDestino, sDtCalculo);
   }
   
-  public org.tempuri.CResultado calcPrecoFAC(java.lang.String nCdServico, java.lang.String nVlPeso, java.lang.String strDataCalculo) throws java.rmi.RemoteException{
+  public org.tempuri.CResultado calcPrecoFAC(String nCdServico, String nVlPeso, String strDataCalculo) throws java.rmi.RemoteException{
     if (calcPrecoPrazoWSSoap == null)
       _initCalcPrecoPrazoWSSoapProxy();
     return calcPrecoPrazoWSSoap.calcPrecoFAC(nCdServico, nVlPeso, strDataCalculo);
   }
   
-  public org.tempuri.CResultadoObjeto calcDataMaxima(java.lang.String codigoObjeto) throws java.rmi.RemoteException{
+  public org.tempuri.CResultadoObjeto calcDataMaxima(String codigoObjeto) throws java.rmi.RemoteException{
     if (calcPrecoPrazoWSSoap == null)
       _initCalcPrecoPrazoWSSoapProxy();
     return calcPrecoPrazoWSSoap.calcDataMaxima(codigoObjeto);
@@ -116,7 +116,7 @@ public class CalcPrecoPrazoWSSoapProxy implements org.tempuri.CalcPrecoPrazoWSSo
     return calcPrecoPrazoWSSoap.listaServicosSTAR();
   }
   
-  public org.tempuri.CResultadoModal verificaModal(java.lang.String nCdServico, java.lang.String sCepOrigem, java.lang.String sCepDestino) throws java.rmi.RemoteException{
+  public org.tempuri.CResultadoModal verificaModal(String nCdServico, String sCepOrigem, String sCepDestino) throws java.rmi.RemoteException{
     if (calcPrecoPrazoWSSoap == null)
       _initCalcPrecoPrazoWSSoapProxy();
     return calcPrecoPrazoWSSoap.verificaModal(nCdServico, sCepOrigem, sCepDestino);
