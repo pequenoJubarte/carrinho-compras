@@ -22,8 +22,7 @@
 			<br>
 			<form:label path="preco">Preço</form:label>
 			<br>
-			<form:input path="preco" type="text" name="preco" maxlength="150"
-				placeholder="Digite seu endereço.." />
+			<form:input path="preco" type="text" name="preco" />
 			<br>
 			<br>
 			<form:label path="quantidade">Quantidade</form:label>

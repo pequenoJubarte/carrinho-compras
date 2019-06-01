@@ -32,7 +32,9 @@ public interface CalcPrecoPrazoWSSoap extends java.rmi.Remote {
     /**
      * Calcula somente o preço com uma data especificada
      */
-    public org.tempuri.CResultado calcPrecoData(String nCdEmpresa, String sDsSenha, String nCdServico, String sCepOrigem, String sCepDestino, String nVlPeso, int nCdFormato, double nVlComprimento, double nVlAltura, double nVlLargura, double nVlDiametro, String sCdMaoPropria, double nVlValorDeclarado, String sCdAvisoRecebimento, String sDtCalculo) throws java.rmi.RemoteException;
+	public org.tempuri.CResultado calcPrecoData(String nCdEmpresa, String sDsSenha, String nCdServico,
+			String sCepOrigem, String sCepDestino, String nVlPeso, int nCdFormato, double nVlComprimento,
+			double nVlAltura, double nVlLargura, double nVlDiametro, String sCdMaoPropria, double nVlValorDeclarado, String sCdAvisoRecebimento, String sDtCalculo) throws java.rmi.RemoteException;
 
     /**
      * Calcula somente o prazo com a data atual

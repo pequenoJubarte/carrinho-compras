@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class CarrinhoController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView inicio() {
-		return new ModelAndView("addProduto", "command", new Produto());
+		return new ModelAndView("adicionaProduto", "command", new Produto());
 	}
 
 	@RequestMapping(value = "/adicionaProduto", method = RequestMethod.POST)
@@ -34,7 +34,7 @@ public class CarrinhoController {
 		return "listaProdutos";
 	}
 
-	@RequestMapping(value = "/listarProdutos", method = RequestMethod.GET)
+	@RequestMapping(value = "/listaProdutos", method = RequestMethod.GET)
 	public ModelAndView listarProdutos() {
 		return new ModelAndView("listaProdutos");
 	}
