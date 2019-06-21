@@ -3,8 +3,7 @@ package br.com.natheus;
 public class Produto {
 	private String nome;
 	private float preco;
-	private int quantidade = 1;
-
+	private int quantidade;
 
 	public String getNome() {
 		return nome;

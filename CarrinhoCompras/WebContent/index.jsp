@@ -12,7 +12,7 @@
 			Hey You..!! Bem-Vindo ao Carrinho de Compras..<br> <br>
 		</h2>
 		<h3>
-			<a href="addProduto">Clique aqui para adicionar um produto </a>
+			<a href="formAddProduto">Clique aqui para adicionar um produto </a>
 		</h3>
 	</div>
 </body>

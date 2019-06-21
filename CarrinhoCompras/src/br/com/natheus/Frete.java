@@ -1,8 +1,6 @@
 package br.com.natheus;
 
-import java.awt.font.NumericShaper;
 import java.rmi.RemoteException;
-import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.text.ParseException;
 import java.util.Locale;
@@ -16,6 +14,9 @@ public class Frete {
 			MAOPROPRIA = "n", AVISO = "n";
 	private final int CODIGOFORMATO = 1;
 	private final double COMPRIMENTO = 16, ALTURA = 2, LARGURA = 11, DIAMETRO = 2, VALORDECLARADO = 19.5;
+
+	private String cepDestinatario;
+	private double precoTotal;
 
 	public double calcularFrete(String cepDestinatario, int quantidadeTotal) {
 		Float peso = quantidadeTotal * 0.2f;
@@ -91,4 +92,21 @@ public class Frete {
 	public double getVALORDECLARADO() {
 		return VALORDECLARADO;
 	}
+
+	public String getCepDestinatario() {
+		return cepDestinatario;
+	}
+
+	public void setCepDestinatario(String cepDestinatario) {
+		this.cepDestinatario = cepDestinatario;
+	}
+
+	public double getPrecoTotal() {
+		return precoTotal;
+	}
+
+	public void setPrecoTotal(double precoTotal) {
+		this.precoTotal = precoTotal;
+	}
+
 }
